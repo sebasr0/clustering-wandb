@@ -29,5 +29,5 @@ def load_and_train():
         kmeans = KMeans(n_clusters=4, random_state=1)
         cluster_labels = kmeans.fit_predict(X)
         
-#execute
+#execute second exec
 load_and_train()
