@@ -32,18 +32,3 @@ Para utilizar este flujo de trabajo:
 
 - El script registra los resultados del entrenamiento y las visualizaciones en tu proyecto de WandB.
 - Puedes monitorear la ejecución y el resultado del flujo de trabajo en la pestaña `Actions` de tu repositorio GitHub.
-
-## Contribuciones
-
-Siéntete libre de contribuir al proyecto mediante pull requests o abriendo issues para discutir mejoras o cambios.
-
-## Licencia
-
-Este proyecto se distribuye bajo la [Licencia MIT](LICENSE.md), lo que permite su uso y modificación para proyectos personales y comerciales.
-
-
-\section*{Licencia}
-
-Este proyecto se distribuye bajo la Licencia MIT, lo que permite su uso y modificación para proyectos personales y comerciales.
-
-\end{document}
