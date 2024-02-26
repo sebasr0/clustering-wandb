@@ -28,3 +28,4 @@ jobs:
       run: wandb login ${{ secrets.WANDB_API_KEY }}
     - name: Run load_n_classify.py
       run: python source/load_n_classify.py --IdExecution ${{ github.run_number }}
+      #
