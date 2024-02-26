@@ -62,4 +62,4 @@ def load_and_classify():
         
 
 #execute
-load_and_train()
+load_and_classify()
