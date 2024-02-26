@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'source/load_n_train.py'
+      - 'source/load_n_classify.py'
 
 jobs:
   train_model:
@@ -26,5 +26,5 @@ jobs:
         pip install -r requirements.txt
     - name: Login to WandB
       run: wandb login ${{ secrets.WANDB_API_KEY }}
-    - name: Run laod_n_train.py
-      run: python source/load_n_train.py --IdExecution ${{ github.run_number }}
+    - name: Run load_n_classify.py
+      run: python source/load_n_classify.py --IdExecution ${{ github.run_number }}

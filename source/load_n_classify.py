@@ -15,7 +15,7 @@ args = parser.parse_args()
 n_clusters = 4
 random_state = 1
 
-def load_and_train():
+def load_and_classify():
     #initialize wandb
     with wandb.init(
         project="clustering-wandb",
@@ -26,7 +26,7 @@ def load_and_train():
         X, y = iris.data, iris.target
         names = iris.target_names
 
-        #get labels gunction
+        # get labels gunction
         def get_label_ids(classes):
             return np.array([names[aclass] for aclass in classes])
         labels = get_label_ids(y)
